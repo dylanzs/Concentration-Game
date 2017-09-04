@@ -1,0 +1,11 @@
+.tiles {
+  border: 3px dotted;
+  border-color: black;
+  height:50px;
+  width:50px;
+  display:inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+
+}
