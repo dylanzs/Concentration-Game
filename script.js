@@ -1,3 +1,5 @@
-$('button').on('click', function() {
-  $(".tiles").text("hi").css( "background-color", "#42e5f4");  ;
-});
+$(document).ready(function() {
+      $(".tile").on('click', function() {
+        $(this).find(".tile-cover").css("display", "none");
+      });
+    });
